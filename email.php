@@ -5,7 +5,7 @@
 $rootPath = dirname(_FILE_);
 require $rootPath.'/PHPMailermaster/PHPMailerAutoload.php';
 
-$emailbody = file_get_contents("./emil/ibp-chinese.html");
+$emailbody = file_get_contents("./emil/XXXXXXXXXXX.html");
 
 $mail = new PHPMailer;  
 
@@ -15,16 +15,16 @@ $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.aliyun.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->CharSet = "UTF-8";
-$mail->Username = 'liuwenjiee@aliyun.com';                 // SMTP username
-$mail->Password = 'dlalyyx2580';                           // SMTP password
+$mail->Username = 'XXXXXXXXXXX';                 // SMTP username
+$mail->Password = 'XXXXXXXXXXX';                           // SMTP password
 // $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 // $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom('liuwenjiee@aliyun.com', 'Wenjie');
-$mail->addAddress('Wenjie.liu@ibprocessing.com.au', 'Joe User');     // Add a recipient
+$mail->setFrom('XXXXXXXXXXX', 'XXXXXXXXXXX');
+$mail->addAddress('XXXXXXXXXXX', 'XXXXXXXXXXX');     // Add a recipient
 // $mail->addAddress('wim.harrington@ibprocessing.com.au'); 
 // Name is optional  'Wenjie.liu@ibprocessing.com.au' 865015063@qq.com 
-$mail->addReplyTo('liuwenjiee@aliyun.com', 'Information');
+$mail->addReplyTo('XXXXXXXXXXX', 'XXXXXXXXXXX');
 // $mail->addCC('cc@example.com');
 // $mail->addBCC('bcc@example.com');
 
